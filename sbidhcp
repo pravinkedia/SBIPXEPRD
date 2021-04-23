@@ -1,0 +1,130 @@
+host mangalmasp01 {
+  hardware ethernet 38:68:dd:25:c1:30;
+  fixed-address 10.0.64.144;
+  filename "pxelinux.0";}
+
+host mangalmasp02 {
+  hardware ethernet 38:68:dd:25:c5:90;
+  fixed-address 10.0.64.145;
+  filename "pxelinux.0";}
+
+host mangalmasp03 {
+  hardware ethernet 38:68:dd:25:c7:e0;
+  fixed-address 10.0.64.146;
+  filename "pxelinux.0";}
+
+host mangalworp01 {
+  hardware ethernet 38:68:dd:24:1b:c0;
+  fixed-address 10.0.64.147;
+  filename "pxelinux.0";}
+
+host mangalworp02 {
+  hardware ethernet 38:68:dd:25:93:70;
+  fixed-address 10.0.64.148;
+  filename "pxelinux.0";}
+
+host mangalworp03 {
+  hardware ethernet 38:68:dd:24:43:b0;
+  fixed-address 10.0.64.149;
+  filename "pxelinux.0";}
+
+host mangalworp04 {
+  hardware ethernet 38:68:dd:24:2e:70;
+  fixed-address 10.0.64.150;
+  filename "pxelinux.0";}
+
+host mangalworp05 {
+  hardware ethernet 38:68:dd:23:c1:98;
+  fixed-address 10.0.64.151;
+  filename "pxelinux.0";}
+
+host mangalworp06 {
+  hardware ethernet 38:68:dd:24:1d:e8;
+  fixed-address 10.0.64.152;
+  filename "pxelinux.0";}
+
+host mangalworp07 {
+  hardware ethernet 38:68:dd:24:40:28;
+  fixed-address 10.0.64.58;
+  filename "pxelinux.0";}
+
+host mangalworp08 {
+  hardware ethernet 38:68:dd:25:93:90;
+  fixed-address 10.0.64.59;
+  filename "pxelinux.0";}
+
+host mangalworp09 {
+  hardware ethernet 38:68:dd:25:93:68;
+  fixed-address 10.0.64.60;
+  filename "pxelinux.0";}
+
+host mangalworp10 {
+  hardware ethernet 38:68:dd:25:8d:c0;
+  fixed-address 10.0.64.61;
+  filename "pxelinux.0";}
+
+host mangalworp11 {
+  hardware ethernet 38:68:dd:24:37:18;
+  fixed-address 10.0.64.62;
+  filename "pxelinux.0";}
+
+host mangalworp12 {
+  hardware ethernet 38:68:dd:24:31:c0;
+  fixed-address 10.0.64.63;
+  filename "pxelinux.0";}
+
+host mangalworp13 {
+  hardware ethernet 38:68:dd:25:93:e0;
+  fixed-address 10.0.64.64;
+  filename "pxelinux.0";}
+
+host mangalworp14 {
+  hardware ethernet 38:68:dd:25:93:80;
+  fixed-address 10.0.64.65;
+  filename "pxelinux.0";}
+
+host mangalworp15 {
+  hardware ethernet 38:68:dd:24:42:d8;
+  fixed-address 10.0.64.66;
+  filename "pxelinux.0";}
+
+host mangalworp16 {
+  hardware ethernet 38:68:dd:24:44:70;
+  fixed-address 10.0.64.67;
+  filename "pxelinux.0";}
+
+host mangalworp17 {
+  hardware ethernet 38:68:dd:24:1d:f0;
+  fixed-address 10.0.64.68;
+  filename "pxelinux.0";}
+
+host mangalworp18 {
+  hardware ethernet 38:68:dd:24:1d:e0;
+  fixed-address 10.0.64.69;
+  filename "pxelinux.0";}
+
+host mangalworp19 {
+  hardware ethernet 38:68:dd:23:31:98;
+  fixed-address 10.0.64.70;
+  filename "pxelinux.0";}
+
+host mangalworp20 {
+  hardware ethernet 38:68:dd:23:35:08;
+  fixed-address 10.0.64.71;
+  filename "pxelinux.0";}
+
+host mangalestp01 {
+  hardware ethernet 38:68:dd:24:42:c8;
+  fixed-address 10.0.64.72;
+  filename "pxelinux.0";}
+
+host mangalestp02 {
+  hardware ethernet 38:68:dd:25:c1:e8;
+  fixed-address 10.0.64.73;
+  filename "pxelinux.0";}
+
+host mangallbp02 {
+  hardware ethernet ;
+  fixed-address 10.0.64.75;
+  filename "pxelinux.0";}
+

@@ -1,0 +1,7 @@
+DEFAULT pxeboot
+TIMEOUT 20
+PROMPT 0
+LABEL pxeboot
+    KERNEL images/vmlinuz
+    APPEND  bond=bond-os_mgmt:eno1,eno2:mode=active-backup ip=10.0.64.67::10.0.64.1:255.255.255.0:mangalworp16:bond-os_mgmt:none bond=bond-os_prod:ens3f0np0,ens6f0np0:mode=802.3ad,lacp_rate=0,miimon=100,updelay=1000,downdelay=1000 ip=10.0.63.67::10.0.63.1:255.255.255.0::bond-os_prod:none nameserver=10.176.126.200 rd.neednet=1 initrd=images/initramfs.img console=tty0 console=ttyS0 coreos.inst=yes coreos.inst.install_dev=sdb coreos.inst.image_url=http://10.0.64.74:8080/RHCOS/rhcos-4.5.6-x86_64-metal.x86_64.raw.gz coreos.inst.ignition_url=http://10.0.64.74:8080/RHCOS/worker.ign
+IPAPPEND 2
